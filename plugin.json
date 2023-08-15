@@ -59,6 +59,19 @@
         "Voltage-controlled amplifier",
         "Waveshaper"
       ]
+    },
+    {
+      "slug": "PatchableDevicesNonlinearIntegrator",
+      "name": "Nonlinear Integrator",
+      "description": "State Variable Filter",
+      "tags": [
+        "Envelope generator",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Slew limiter"
+      ]
     }
   ]
 }
