@@ -1,0 +1,13 @@
+{
+  "slug": "PatchableDevices",
+  "name": "Patchable Devices",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Patchable Devices",
+  "author": "Jacek Lewański",
+  "pluginUrl": "https://github.com/nullJaX/vcvrack-patchable-devices",
+  "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/manuals/MAIN.md",
+  "sourceUrl": "https://github.com/nullJaX/vcvrack-patchable-devices",
+  "changelogUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/commits/master",
+  "modules": []
+}
