@@ -20,4 +20,5 @@ void init(Plugin* p) {
 	p->addModel(modelDigitalChaoticSystem);
 	p->addModel(modelDualIntegrator);
 	p->addModel(modelNonlinearIntegrator);
+	p->addModel(modelVoltageSequencer);
 }

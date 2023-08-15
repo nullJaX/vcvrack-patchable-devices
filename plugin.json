@@ -72,6 +72,20 @@
         "Oscillator",
         "Slew limiter"
       ]
+    },
+    {
+      "slug": "PatchableDevicesVoltageSequencer",
+      "name": "Voltage Sequencer",
+      "description": "Programmable sequencer",
+      "tags": [
+        "Clock modulator",
+        "Envelope generator",
+        "Function generator",
+        "Logic",
+        "Sequencer",
+        "Utility",
+        "Waveshaper"
+      ]
     }
   ]
 }

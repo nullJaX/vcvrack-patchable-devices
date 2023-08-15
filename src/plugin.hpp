@@ -20,3 +20,4 @@ extern Model* modelComparingCounter;
 extern Model* modelDigitalChaoticSystem;
 extern Model* modelDualIntegrator;
 extern Model* modelNonlinearIntegrator;
+extern Model* modelVoltageSequencer;
