@@ -21,3 +21,4 @@ extern Model* modelDigitalChaoticSystem;
 extern Model* modelDualIntegrator;
 extern Model* modelNonlinearIntegrator;
 extern Model* modelVoltageSequencer;
+extern Model* modelWindowGenerators;

@@ -21,4 +21,5 @@ void init(Plugin* p) {
 	p->addModel(modelDualIntegrator);
 	p->addModel(modelNonlinearIntegrator);
 	p->addModel(modelVoltageSequencer);
+	p->addModel(modelWindowGenerators);
 }

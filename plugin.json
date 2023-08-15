@@ -86,6 +86,23 @@
         "Utility",
         "Waveshaper"
       ]
+    },
+    {
+      "slug": "PatchableDevicesWindowGenerators",
+      "name": "Window Generators",
+      "description": "Multi-shape Envelope Generator",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Envelope generator",
+        "Envelope follower",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Oscillator",
+        "Slew limiter",
+        "Waveshaper"
+      ]
     }
   ]
 }
