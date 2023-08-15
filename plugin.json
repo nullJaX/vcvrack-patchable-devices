@@ -21,6 +21,23 @@
         "Utility",
         "Waveshaper"
       ]
+    },
+    {
+      "slug": "PatchableDevicesDigitalChaoticSystem",
+      "name": "Digital Chaotic System",
+      "description": "Shift Register driven by two independent VCOs",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Function generator",
+        "Logic",
+        "Low-frequency oscillator",
+        "Noise",
+        "Oscillator",
+        "Random",
+        "Sequencer",
+        "Utility"
+      ]
     }
   ]
 }
