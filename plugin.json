@@ -9,5 +9,18 @@
   "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/manuals/MAIN.md",
   "sourceUrl": "https://github.com/nullJaX/vcvrack-patchable-devices",
   "changelogUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/commits/master",
-  "modules": []
+  "modules": [
+    {
+      "slug": "PatchableDevicesComparingCounter",
+      "name": "Comparing Counter",
+      "description": "Pulse counter / frequency divider with advanced comparator input",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Oscillator",
+        "Utility",
+        "Waveshaper"
+      ]
+    }
+  ]
 }
