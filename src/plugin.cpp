@@ -18,4 +18,5 @@ void init(Plugin* p) {
 	pluginInstance = p;
 	p->addModel(modelComparingCounter);
 	p->addModel(modelDigitalChaoticSystem);
+	p->addModel(modelDualIntegrator);
 }

@@ -38,6 +38,27 @@
         "Sequencer",
         "Utility"
       ]
+    },
+    {
+      "slug": "PatchableDevicesDualIntegrator",
+      "name": "Dual Integrator",
+      "description": "Dual, multi-purpose slew limiter",
+      "tags": [
+        "Clock generator",
+        "Clock modulator",
+        "Dual",
+        "Envelope generator",
+        "Filter",
+        "Function generator",
+        "Low-frequency oscillator",
+        "Low-pass gate",
+        "Oscillator",
+        "Sample and hold",
+        "Slew limiter",
+        "Utility",
+        "Voltage-controlled amplifier",
+        "Waveshaper"
+      ]
     }
   ]
 }

@@ -18,3 +18,4 @@ using namespace rack;
 extern Plugin* pluginInstance;
 extern Model* modelComparingCounter;
 extern Model* modelDigitalChaoticSystem;
+extern Model* modelDualIntegrator;
