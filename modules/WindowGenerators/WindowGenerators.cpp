@@ -12,9 +12,7 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
-#include "plugin.hpp"
-#include "panel_schema.hpp"
-#include "voltage_helpers.hpp"
+#include "../plugin.hpp"
 
 using dsp::TSchmittTrigger;
 using dsp::TSlewLimiter;
@@ -167,7 +165,7 @@ struct WindowGenerators : Module {
 struct WindowGeneratorsWidget : ModuleWidget {
 	WindowGeneratorsWidget(WindowGenerators* module) {
 		setModule(module);
-		setPanel(createPanel(asset::plugin(pluginInstance, "res/WindowGenerators.svg")));
+		setPanel(createPanel(asset::plugin(pluginInstance, "modules/WindowGenerators/WindowGenerators.svg")));
 		addChild(createWidget<ScrewBlack>(Vec(RACK_GRID_WIDTH, 0)));
 		addChild(createWidget<ScrewBlack>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, 0)));
 		addChild(createWidget<ScrewBlack>(Vec(RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));

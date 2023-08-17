@@ -14,6 +14,8 @@
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 #pragma once
 #include <rack.hpp>
+#include "utils/panel_schema.hpp"
+#include "utils/voltage_helpers.hpp"
 using namespace rack;
 extern Plugin* pluginInstance;
 extern Model* modelComparingCounter;

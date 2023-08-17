@@ -10,14 +10,9 @@ CXXFLAGS +=
 # Static libraries are fine, but they should be added to this plugin's build system.
 LDFLAGS +=
 
-# Add .cpp files to the build
-SOURCES += $(wildcard src/*.cpp)
-
-# Add files to the ZIP package when running `make dist`
-# The compiled plugin and "plugin.json" are automatically added.
-DISTRIBUTABLES += res
+SOURCES += $(wildcard modules/*.cpp)
+SOURCES += $(wildcard modules/**/*.cpp)
+DISTRIBUTABLES += $(wildcard modules/**/*.svg)
 DISTRIBUTABLES += $(wildcard LICENSE*)
 DISTRIBUTABLES += $(wildcard presets)
-
-# Include the Rack plugin Makefile framework
 include $(RACK_DIR)/plugin.mk
