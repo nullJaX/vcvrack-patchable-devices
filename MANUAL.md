@@ -30,3 +30,12 @@ In order to improve user experience while using Patchable Devices plugin and ach
 
 **If in doubt, please hover over the module's components to see brief description or take a look into specific module's manual page.**
 ## Voltage standard
+### Gates and Triggers (red ring; digital behavior):
+- All **inputs** detect **high state** for any voltage **above 1.8V**
+- Almost all outputs generate 5V for high state and 0V for low state (please refer to individual module's manual for more details)
+### Audio and Control Voltage (white ring; continuous voltage):
+- Any voltage is accepted, almost all inputs are equipped with attenuation options. The signal usually is restricted and conditioned collectively, after adding all voltages for particular input or parameter
+- Outputs may generate signals from following voltage ranges (with few exceptions - please refer to individual module's manual for more details):
+  - -5V to 5V
+  - 0V to 5V
+  - 0V to 10V
