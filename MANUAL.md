@@ -1,11 +1,13 @@
 # User Manual
-## Modules
-### [Comparing Counter](modules/ComparingCounter/ComparingCounter.md)
-### [Digital Chaotic System](modules/DigitalChaoticSystem/DigitalChaoticSystem.md)
-### [Dual Integrator](modules/DualIntegrator/DualIntegrator.md)
-### [Nonlinear Integrator](modules/NonlinearIntegrator/NonlinearIntegrator.md)
-### [Voltage Sequencer](modules/VoltageSequencer/VoltageSequencer.md)
-### [Window Generators](modules/WindowGenerators/WindowGenerators.md)
+1. Modules (External files)
+   1. [Comparing Counter](modules/ComparingCounter/ComparingCounter.md)
+   2. [Digital Chaotic System](modules/DigitalChaoticSystem/DigitalChaoticSystem.md)
+   3. [Dual Integrator](modules/DualIntegrator/DualIntegrator.md)
+   4. [Nonlinear Integrator](modules/NonlinearIntegrator/NonlinearIntegrator.md)
+   5. [Voltage Sequencer](modules/VoltageSequencer/VoltageSequencer.md)
+   6. [Window Generators](modules/WindowGenerators/WindowGenerators.md)
+2. [Panel standard](#panel-standard)
+3. [Voltage standard](#voltage-standard)
 ## Panel standard
 In order to improve user experience while using Patchable Devices plugin and achieve uniform look between the modules, several rules were established for the general panel design:
 1. Components are (mostly) laid out in a grid (aligned to module center) with:
