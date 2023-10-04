@@ -14,6 +14,7 @@
       "slug": "PatchableDevicesComparingCounter",
       "name": "Comparing Counter",
       "description": "Pulse counter / frequency divider with advanced comparator input",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/ComparingCounter/ComparingCounter.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
