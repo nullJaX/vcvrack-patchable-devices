@@ -26,7 +26,8 @@
     {
       "slug": "PatchableDevicesDigitalChaoticSystem",
       "name": "Digital Chaotic System",
-      "description": "Shift Register driven by two independent VCOs",
+      "description": "Digital 8-bit Shift Register driven by two independent VCOs",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/DigitalChaoticSystem/DigitalChaoticSystem.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
