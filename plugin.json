@@ -45,6 +45,7 @@
       "slug": "PatchableDevicesDualIntegrator",
       "name": "Dual Integrator",
       "description": "Dual, multi-purpose slew limiter",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/DualIntegrator/DualIntegrator.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
