@@ -67,6 +67,7 @@
       "slug": "PatchableDevicesNonlinearIntegrator",
       "name": "Nonlinear Integrator",
       "description": "State Variable Filter",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/NonlinearIntegrator/NonlinearIntegrator.md",
       "tags": [
         "Envelope generator",
         "Filter",
