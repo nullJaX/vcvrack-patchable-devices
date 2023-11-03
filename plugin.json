@@ -81,6 +81,7 @@
       "slug": "PatchableDevicesVoltageSequencer",
       "name": "Voltage Sequencer",
       "description": "Programmable sequencer",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/VoltageSequencer/VoltageSequencer.md",
       "tags": [
         "Clock modulator",
         "Envelope generator",
