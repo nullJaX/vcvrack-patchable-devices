@@ -96,6 +96,7 @@
       "slug": "PatchableDevicesWindowGenerators",
       "name": "Window Generators",
       "description": "Multi-shape Envelope Generator",
+      "manualUrl": "https://github.com/nullJaX/vcvrack-patchable-devices/blob/master/modules/WindowGenerators/WindowGenerators.md",
       "tags": [
         "Clock generator",
         "Clock modulator",
