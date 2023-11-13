@@ -167,4 +167,4 @@ struct DualIntegratorWidget : ModuleWidget {
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(0.5f * (xCoords(1) + xCoords(2)), yCoords(1))), module, DualIntegrator::CMP_OUTPUT));
 	}
 };
-Model* modelDualIntegrator = createModel<DualIntegrator, DualIntegratorWidget>("PatchableDevicesDualIntegrator");
+Model* modelDualIntegrator = createModel<DualIntegrator, DualIntegratorWidget>("DualIntegrator");

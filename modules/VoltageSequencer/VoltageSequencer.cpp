@@ -199,4 +199,4 @@ struct VoltageSequencerWidget : ModuleWidget {
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(xCoords(8), yCoords(1))), module, VoltageSequencer::ALLGATES_OUTPUT));
 	}
 };
-Model* modelVoltageSequencer = createModel<VoltageSequencer, VoltageSequencerWidget>("PatchableDevicesVoltageSequencer");
+Model* modelVoltageSequencer = createModel<VoltageSequencer, VoltageSequencerWidget>("VoltageSequencer");

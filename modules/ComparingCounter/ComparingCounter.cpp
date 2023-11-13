@@ -100,4 +100,4 @@ struct ComparingCounterWidget : ModuleWidget {
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(xCoords(1), yCoords(0))), module, ComparingCounter::COUNTER_OUTPUT));
 	}
 };
-Model* modelComparingCounter = createModel<ComparingCounter, ComparingCounterWidget>("PatchableDevicesComparingCounter");
+Model* modelComparingCounter = createModel<ComparingCounter, ComparingCounterWidget>("ComparingCounter");

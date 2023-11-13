@@ -151,4 +151,4 @@ struct DigitalChaoticSystemWidget : ModuleWidget {
 		addOutput(createOutputCentered<PJ301MPort>(mm2px(Vec(0.5f * (xs[1] + xs[2]), yCoords(1))), module, DigitalChaoticSystem::PULSED_OUTPUT));
 	}
 };
-Model* modelDigitalChaoticSystem = createModel<DigitalChaoticSystem, DigitalChaoticSystemWidget>("PatchableDevicesDigitalChaoticSystem");
+Model* modelDigitalChaoticSystem = createModel<DigitalChaoticSystem, DigitalChaoticSystemWidget>("DigitalChaoticSystem");

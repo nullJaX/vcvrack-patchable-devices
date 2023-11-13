@@ -120,4 +120,4 @@ struct NonlinearIntegratorWidget : ModuleWidget {
 		addInput(createInputCentered<PJ301MPort>(mm2px(Vec(xCoords(1), yCoords(2))), module, NonlinearIntegrator::InputId::VOCT_INPUT));
 	}
 };
-Model* modelNonlinearIntegrator = createModel<NonlinearIntegrator, NonlinearIntegratorWidget>("PatchableDevicesNonlinearIntegrator");
+Model* modelNonlinearIntegrator = createModel<NonlinearIntegrator, NonlinearIntegratorWidget>("NonlinearIntegrator");

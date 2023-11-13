@@ -183,4 +183,4 @@ struct WindowGeneratorsWidget : ModuleWidget {
 		addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(xCoords(4), yCoords(2))), module, WindowGenerators::SHAPE_PARAM));
 	}
 };
-Model* modelWindowGenerators = createModel<WindowGenerators, WindowGeneratorsWidget>("PatchableDevicesWindowGenerators");
+Model* modelWindowGenerators = createModel<WindowGenerators, WindowGeneratorsWidget>("WindowGenerators");
