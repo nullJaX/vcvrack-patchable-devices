@@ -114,9 +114,7 @@ struct DigitalChaoticSystem : Module {
 		smooth.process(stepped);
 		// Output VCOs values
 		for (unsigned char i = 0; i < 4; i++) {
-			unsigned char twoI = (i << 1);
-			outputs[twoI].setVoltage(output[twoI]);
-			outputs[twoI + 1].setVoltage(output[twoI + 1]);
+			outputs[i].setVoltage(output[i]);
 		}
 		outputs[PULSED_OUTPUT].setVoltage(gateOn * xored);      // Pulsed is the XOR result
 		outputs[STEPPED_OUTPUT].setVoltage(stepped);            // Output STEPPED
